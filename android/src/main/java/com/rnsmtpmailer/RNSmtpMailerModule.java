@@ -109,11 +109,11 @@ class MailSender extends javax.mail.Authenticator {
         props.put("mail.smtp.auth", "true");
         props.put("mail.smtp.port", port);
         props.put("mail.smtp.socketFactory.port", port);
-        if (ssl) {
-            props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
-        } else {
-            props.put("mail.smtp.starttls.enable", "true");
-        }
+//         if (ssl) {
+//             props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
+//         } else {
+//             props.put("mail.smtp.starttls.enable", "true");
+//         }
         props.put("mail.smtp.socketFactory.fallback", "false");
         props.setProperty("mail.smtp.quitwait", "false");
 
