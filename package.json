@@ -1,13 +1,13 @@
 {
-  "name": "react-native-smtp-mailer",
+  "name": "@muyoui/react-native-smtp-mailer",
   "version": "1.2.5",
   "description": "Send emails by connecting to smtp server+attachments, using android javamail and ios mailcore2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angelos3lex/react-native-smtp-mailer.git"
+    "url": "https://github.com/muyoui/react-native-smtp-mailer.git"
   },
   "main": "index.ts",
-  "homepage": "https://github.com/angelos3lex/react-native-smtp-mailer",
+  "homepage": "https://github.com/muyoui/react-native-smtp-mailer",
   "keywords": [
     "react-native",
     "smtp",
